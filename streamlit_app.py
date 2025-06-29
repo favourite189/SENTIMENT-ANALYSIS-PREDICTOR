@@ -13,7 +13,7 @@ def preprocess(text):
 # Streamlit app
 st.set_page_config(page_title="Sentiment Analyzer", layout="centered")
 
-st.title(" sentiment Analysis App")
+st.title(" Sentiment Analysis App")
 st.write("Enter product and review text to analyze sentiment.")
 
 # Input fields
