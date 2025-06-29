@@ -20,11 +20,8 @@ matplotlib.pyplOT
 seaborn
 Jolib
 scikit learn
-  
-  **FIRSTSTEP**
-  - 1Import libaries
-  -  load my dataset
-  - 2df.head,df.tail,df.shape,df.info
- -  **SECONDSTEP**
+   ## 🚀 Live App
+ [Try the Sentiment Analysis Predictor](https://sentiment-analysis-predictor-7qomcwynfhxqcmrjsofzuv.streamlit.app/)
+
       - _
 
