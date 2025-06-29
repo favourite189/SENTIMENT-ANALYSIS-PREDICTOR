@@ -22,6 +22,10 @@ Jolib
 scikit learn
    ## 🚀 Live App
  [Try the Sentiment Analysis Predictor](https://sentiment-analysis-predictor-7qomcwynfhxqcmrjsofzuv.streamlit.app/)
+## Project Report
+My project report summary,click to access my report
+
+[Click here to download the PowerPoint report](./report.pptx)
 
       - _
 
