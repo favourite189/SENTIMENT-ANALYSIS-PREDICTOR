@@ -13,3 +13,18 @@ Data gotten from kaggle to predict  customer review
 
 ## DATA COLLECTED
 They are 5 columns  and 1898745 rows
+## LIBARIES USED
+pandas
+numpy 
+matplotlib.pyplOT
+seaborn
+Jolib
+scikit learn
+  
+  **FIRSTSTEP**
+  - 1Import libaries
+  -  load my dataset
+  - 2df.head,df.tail,df.shape,df.info
+ -  **SECONDSTEP**
+      - _
+
