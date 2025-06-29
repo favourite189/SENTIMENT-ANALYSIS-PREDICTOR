@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment Analysis Predictor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: ArialBold, sans-serif;
+      background-color:#2a9134
+; /* Changed to a green shade */
+      color: #386641;
+    }
+
+    .container {
+      background-color: ##386641;;
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      text-align: center;
+      color: #90a955;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      text-align: center;
+      color: #ecf39e;
+      font-size: 1.1em;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin: 15px 0 5px;
+      color: #e9f5db;
+      font-weight: bold;
+    }
+
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+      background-color: #c7f9cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .result {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #347433;
+    }
+
+    .optional-note {
+      font-size: 0.9em;
+      color: #ccc;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Sentiment Analysis Predictor</h1>
+    <p class="subtitle">Enter your product and review to check sentiment.</p>
+
+    <form method="POST">
+      <label for="product">Product: <span class="optional-note">(optional)</span></label>
+      <input type="text" id="product" name="product" placeholder="e.g., Nivea soft light moisturizer for face">
+
+      <label for="review">Review:</label>
+      <textarea id="review" name="review" rows="4" placeholder="Write your review..." required></textarea>
+
+      <input type="submit" value="Predict Sentiment">
+    </form>
+
+    {% if prediction %}
+      <div class="result">
+        <strong>Predicted Sentiment:</strong> {{ prediction }}
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>
+
+     
