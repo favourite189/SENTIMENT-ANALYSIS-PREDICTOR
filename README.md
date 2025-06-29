@@ -25,7 +25,8 @@ scikit learn
 ## Project Report
 My project report summary,click to access my report
 
-[Click here to download the PowerPoint report](./report.pptx)
+👉 [Download DSA Project Report](https://github.com/favourite189/SENTIMENT-ANALYSIS-PREDICTOR/raw/main/DSA%20Project%20report.pptx)
+
 
       - _
 
